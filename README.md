@@ -1,4 +1,4 @@
-# Development Container for Hand-Eye Robot World Solver
+# Hand-Eye Robot World Solver
 
 This repository contains a version of the Hand-Eye Robot-World solver for "Accurate calibration of multi-perspective cameras from a generalization of the hand-eye constraint" by Wang et al.
 The dockerfile can be used to create a container for running the code.
