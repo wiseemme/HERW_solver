@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(2023-kinematics-cal-xarm VERSION 0.1.0)
+project(HERW_solver VERSION 0.1.0)
 
 set(CMAKE_BUILD_TYPE "release")
 # set everything up for c++ 17 features
