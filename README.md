@@ -1,19 +1,9 @@
-# 2023-kinematics-cal-xarm
-This is the repo for XARM DH parameter calibration algorithm 
+# Development Container for Hand-Eye Robot World Solver
 
-## The environment is setup using Docker 
-Below are the steps for setting up the docker environment: 
+This repository contains a version of the Hand-Eye Robot-World solver for "Accurate calibration of multi-perspective cameras from a generalization of the hand-eye constraint" by Wang et al.
+The dockerfile can be used to create a container for running the code.
 
-```
-docker pull thejerrycheng/kinematics_cal_xarm 
+I extended the method to estimate multiple X and Y poses.
 
-docker run -it thejerrycheng/kinematics_cal_xarm
-
-```
-
-Command used to add a local directory to the docker image: 
-``` 
-docker run -it --rm -v $HOME/Desktop/kinematics_cal_xarm:/source_code --name source_code thejerrycheng/kinematics_cal_xarm bash
-
-
-```
+# To do:
+- Implement a sparse smallest eigen value solver. 
